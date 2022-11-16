@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Work+Sans:ital,wght@1,200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 62.5%;
+    text-decoration: none;
+    }
+.logo{
+        width:300px;
+        height:200px;
+        object-fit: cover;
+       
+}
+.titulo {
+    color: rgb(65, 58, 87);
+    text-align: center;
+    font-size: 30px;
+    font-style: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(114, 95, 117);
+    font-size: 50px;
+  }
+  
+  li {
+    float: left;
+  
+    
+  }
+  
+  li a {
+    
+    color: rgb(171, 152, 176);
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    text-align: end;
+  }
+  
+  li a:hover {
+    background-color: rgb(106, 86, 107);
+  }
+
+.cuerpoPpal {
+    background-color: rgba(237, 237, 233, 0.6);
+    margin: 20px;
+  
+} 
+
+.subtitulos {
+    color: rgb(68, 63, 88);
+    font-size: 20px;
+}
+
+.centrado {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.border {
+    text-decoration: none;
+    list-style: none;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/122/863/non_2x/white-gray-background-with-soft-watercolor-texture-vector.jpg);
+    border-color: rgb(86, 82, 100);
+    background-clip: padding-box;
+    border-style: ridge;
+    border-width:medium;
+    font-size: 30px;
+    margin: 20px;
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    overflow:auto;
+    
+    
+    
+}
+/* la idea es poner los cuaadrados uno al lado del otro */
+
+div button{
+    text-align: center;
+    font-size: 20px;
+    color:rgb(63, 52, 64);
+    background-color: rgba(207, 207, 202, 0.6);
+    font-family: 'Quicksand', sans-serif;   
+    border: 1px solid rgb(63, 52, 64);
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top: 50px;
+    
+
+}
+
+.box__fixed {
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    size:20px;
+   /* no puedo achicar la imagen de whatsapp */
+}
+
+.section {
+font-size: 20px;
+background-color: rgba(207, 207, 202, 0.6); 
+background-size: contain;
+margin-bottom: 10px;
+
+}
+
+.listado {
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: dotted;
+}
+
+.formulario {
+    font-size:80px;
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgba(207, 207, 202, 0.6); 
+    margin-bottom: 10px;
+}
+
+.imgSize {
+    margin-top: 10px;
+    width: 5px ;
+    height: 5px;
+    
+    /* no se me achican las iconos aunque le pongo el tamaño. no se que estoy haciendo mal */
+}
+
+.pieDePagina {
+    margin-top: 20px;
+    font-size: 15px;
+    
+}
