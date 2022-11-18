@@ -5,81 +5,133 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maja Rent</title>
+
     <link rel="icon" type="image/x-icon" href="./assets/images/logo.jpeg">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/estilos.css">
+    <script src="https://kit.fontawesome.com/5171e1f3c5.js" crossorigin="anonymous"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
+
 <body class="cuerpoPpal">
+
     <header>
         <img class=logo src="./assets/images/logo.jpeg" alt="logo">
         <h1 class="titulo"> Maja rent by Paulina Terra</h1>
-        <h3 class="subtitulos centrado"> ♻️ MODA SUSTENTABLE ♻️ </p>
-            
-            <nav> 
-                <ul>
-                    <li> <a href="#">Inicio</a></li>
-                    <li> <a href="./pages/sobremi.html">Sobre Mi</a></li>
-                    <li> <a href="./pages/perchero.html">Perchero</a></li>
-                    <li> <a href="./pages/amedida.html">A medida</a></li>
-                    <li> <a href="./pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav> 
-       
+        <h2 class="subtitulos centrado"> <i class="fas fa-recycle"></i> Moda Sustentable <i class="fas fa-recycle"></i></p>
+                
+            <div class="container">
+                
+                    <nav class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"> 
+                        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 navegador fondoNav">
+                            <li class="navegadorBS"> <a class="ancla" href="#">Inicio</a></li>
+                            <li class="navegadorBS"> <a href="./pages/sobremi.html">Sobre Maja</a></li>
+                            <li class="navegadorBS"> <a href="./pages/perchero.html">Perchero</a></li>
+                            <li class="navegadorBS"> <a href="./pages/amedida.html">A medida</a></li>
+                            <li class="navegadorBS"> <a href="./pages/contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav>
 
+                </div>
+                
+
+                
+            <div class="b-example-divider"></div>
     </header>
 
     <main>
          <br>
-         <h2 class="subtitulos"> • Alquiler y venta de vestidos de fiesta • </h2>
-         <br>
-         <p class="cuerpoPpal subtitulos"> Tenes un evento y queres usar algo especial? Maja rent te ofrece la posibilidad
-            de alquiler un vestido de alta costura por una noche o hacerte el vestido que soñas a precio de alquiler.
-         </p>
-          
-        <section>
-           
-        <a href="./pages/sobremi.html">
-            <div class="border"> 
-                <h3 class="centrado">Como surgio Maja?</h3>
-                <hr>
-                <p class="centrado">Quines somos y porque somos una marca sustentable</p>
-                <button class="boton"> Ver Mas </button>
+         <div class="conteiner">
+            <div class="row">
+                <div class="wrap">
+            
+                    <div class="wrapTexto">
+                        <p> <i class="far fa-calendar-check iconos"></i>
+                            Tenes un evento y queres usar algo especial? Maja rent te ofrece la posibilidad
+                            de alquiler un vestido de alta costura por una noche o hacerte el vestido que 
+                            soñas a precio de alquiler. </p>
+                           <br>
+                            <p> <i class="far fa-clock iconos"></i>
+                                La podes hacer con la anticipación que quieras o si estas ya
+                                estas dentro de los 3 días de tu evento te podes llevar el outfit 
+                                en el momento!.</p>
+                                <br>
+                            <p> <i class="fas fa-recycle iconos"></i>
+                            Devolvélo sin preocuparte por la tintorería! Ya sos parte de la moda circular
+                            </p>
+                    </div>
+                </div>
+
             </div>
-        </a>
+
+         </div>
          
-        <a href="./pages/perchero.html">
-            <div class="border">
-                 <h3 class="centrado"> Vestidos de perchero</h3> 
-                 <hr>
-                 <p class="centrado"> Tenes un casamiento, evento y no sabes que ponerte? No queres comprarte algo nuevo?
+         
+          
+        <section class=borderPadre>
+             <a href="./pages/sobremi.html">
+                <div class="border"> 
+                    <h3 class="centrado">Como surgio Maja?</h3>
+                    <hr>
+                    <p class="centrado">Quines somos y porque somos una marca sustentable</p>
+                    <button class="boton"> Ver Mas </button>
+                </div>
+            </a>
+         
+            <a href="./pages/perchero.html">
+                <div class="border">
+                    <h3 class="centrado"> Vestidos de perchero</h3> 
+                    <hr>
+                    <p class="centrado"> Tenes un casamiento, evento y no sabes que ponerte? No queres comprarte algo nuevo?
                      Mira todos los vestidos que tenemos para vos. </p>
-                     <button class="boton"> Ver Mas </button>
-            </div>
-        </a>
-        <a href="./pages/amedida.html">
-             <div class="border">
-                <h3 class="centrado"> Vestidos a medida</h3>
-                <hr>
-                <p class="centrado"> Se te diseñara a medida un vestido de alta costura para tu evento. </p>
-                <button class="boton"> Ver Mas </button>
-            </div>
-        </a>
+                     <button class="boton margin"> Ver Mas </button>
+                </div>
+            </a>
+            <a href="./pages/amedida.html">
+                <div class="border">
+                    <h3 class="centrado"> Vestidos a medida</h3>
+                    <hr>
+                    <p class="centrado"> Se te diseñara a medida un vestido de alta costura para tu evento. </p>
+                    <button class="boton"> Ver Mas </button>
+                </div>
+            </a>
         </section>
   
     </main>
 
-    <footer>
+    <footer class="footer">
         
-       <div>
-        <a class="imgSize" href="https://facebook.com" target="_blank"><img src="./assets/images/facebooklogo.png" alt="Facebook"></a>
-        <a class="imgSize" href="https://www.instagram.com/maja.rent/?hl=es" target="_blank"><img src="./assets/images/instagram.png" alt="Instagram"></a>
-        <a class="box__fixed" href="https://wa.me/5491132695121?text=Quisiera%20una%20cita,%20Gracias" target="_blank"><img src="./assets/images/whatsapp.png" alt="Whatsapp" ></a>
-       </div>
+       <div class="footerDiv">
+        <a href="https://facebook.com" target="_blank" alt="Facebook">
+            <i class="fa-brands fa-facebook facebook animate__animated animate__pulse animate__infinite"></i>
+        </a>
+        <a href="https://www.instagram.com/maja.rent/?hl=es" target="_blank" alt="Instagram">
+            <i class="fa-brands fa-instagram instagram animate__animated animate__pulse animate__infinite"></i>
+        </a>
+        <a href="https://wa.me/5491132695121?text=Quisiera%20una%20cita,%20Gracias animate__animated animate__pulse" target="_blank" alt="Whatsapp" >
+            <i class="fa-brands fa-whatsapp whatsapp animate__animated animate__pulse animate__infinite"></i>
+        </a>
+        <div>
+            <nav class="navegadorFooter">
+                <a href="./pages/sobremi.html">Sobre Maja</a>
+                <a href="./pages/perchero.html">Perchero</a>
+                <a href="./pages/amedida.html">A Medida</a>
+                <a href="./pages/contacto.html">Contacto</a>
+            </nav>
+        </div>
 
-        <p class="pieDePagina"> Direccion showroom: Tortuguitas - con cita previa </p>
-        <p class="pieDePagina"> Lunes a viernes de 10:00 a 20:00 hs </p>
-        <p class="pieDePagina"> ® 2022 -  Todos los derechos reservados </p>
-     
+        <div>
+            <p class="pieDePagina"> Copyright © 2022 - Desarrollado por Carolina Huergo</p>
+            
+        </div>
+                  
+        </div>
+
     </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

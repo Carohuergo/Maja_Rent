@@ -6,21 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maja Rent</title>
     <link rel="icon" type="image/x-icon" href="../assets/images/logo.jpeg">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
+    <script src="https://kit.fontawesome.com/5171e1f3c5.js" crossorigin="anonymous"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body class="cuerpoPpal">
     <header>
         <img class="logo" src="../assets/images/logo.jpeg" alt="logo">
         <h1 class="titulo"> Maja rent by Paulina Terra</h1>
-        <h3 class="subtitulos centrado"> ♻️ MODA SUSTENTABLE ♻️ </p>
+        <h2 class="subtitulos centrado"> <i class="fas fa-recycle"></i> Moda Sustentable <i class="fas fa-recycle"></i></p>
         
         <nav> 
-            <ul>
-                <li> <a href="../index.html">Inicio</a></li>
-                <li> <a href="./sobremi.html">Sobre Mi</a></li>
-                <li> <a href="./perchero.html">Perchero</a></li>
-                <li> <a href="./amedida.html">A medida</a></li>
-                <li> <a href="#">Contacto</a></li>
+            <ul class="navegador">
+                <li class="navegadorHijo"> <a href="../index.html">Inicio</a></li>
+                <li class="navegadorHijo"> <a href="./sobremi.html">Sobre Maja</a></li>
+                <li class="navegadorHijo"> <a href="./perchero.html">Perchero</a></li>
+                <li class="navegadorHijo"> <a href="./amedida.html">A medida</a></li>
+                <li class="navegadorHijo"> <a href="#">Contacto</a></li>
             </ul>        
         </nav>
    
@@ -28,80 +33,91 @@
 
     <main>
         <section >
-        <h2 class="subtitulos">Complete el formulario para sacar una cita con Maja</h2>
-        <form class="formulario">
-               <div>
-                <input type="text" placeholder="Nombre y Apellido*" required>
-               <div>
-                
-               <div>
+        <br>
+        <h2 class="subtitulos negrita centrado">Complete el formulario para sacar una cita con Maja</h2>
+        <form class="formularioPadre">
+               <div class="formulario">
+                <input type="email" placeholder="Nombre y apellido*" required>
+               <br>
                 <input type="email" placeholder="ejemplo@mail.com*" required>
-               </div>
-               
-               <div>
+               <br>
                 <input type="text" placeholder="Telefono*" required>
-               </div>
-               
-               <div>
-                <p>¿En que sentido estas interesada?<p>
-                <select>
-                    <option value="0">Servicio/option>
+               <br>
+
+                <p>¿En que servicio estas interesada?<p>
+                <select class="agrandar">
+                    <option value="0">Servicio</option>
                     <option value="1">Alquiler de Perchero</option>
                     <option value="2">A medida</option>
                     <option value="2">Las dos opciones - No estoy decidida</option>
                 </select>
-               </div>
 
-               <div>
+               <br>
+
                 <p>Si esta interesada en algun vestido de alquier en particular, seleccione abajo</p>
+    
                 <select>
                     <option value="0">Modelo</option>
                     <option value="1">Modelo Carolina</option>
                     <option value="2">Modelo Pium</option>
+                    <option value="3">Modelo Joaquina</option>
                 </select>
-               </div>
-               
-               <div>
+              
                 <label for="">Fecha del evento</label>
                 <input id="" name="dia*" type="date" required>
-                </div>
-                
-               <div>
-                <label for="">Interesada en probarse mas modelos?</label>
-                <input type="checkbox" name="opciones">
-               </div>
                
-               <div>
-                    <p>Comentario</p>
-                    <textarea placeholder="Ingrese su mensaje"></textarea>
-               </div>
-               
-               <div>
+                <label for="">Interesada en probarse mas modelos?
+                <input type="checkbox" name="opciones"> </label>
+               <br>
+                <p>Comentario</p>
+                 <textarea placeholder="Ingrese su mensaje"></textarea>
+             
                 <input type="submit" value="Enviar ahora">
                </div> 
+               <div>
+                <img class="imagenFormulario" src="../assets/images/moda.jpeg" alt="modaBrillo">
+               </div>
             </form>
         </section>
 
     </main>
             <section>
-                <p class="subtitulos">Showroom con cita previa</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4633.698571734169!2d-58.72530994557617!3d-34.44642967970336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca21a900549ed%3A0xb7e86e78d001395a!2sDECS%20Tortugas!5e0!3m2!1ses-419!2sar!4v1665683759289!5m2!1ses-419!2sar" 
+                <p class="subtitulos centrado">Showroom con cita previa</p>
+                <iframe class="mapa centrado" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4633.698571734169!2d-58.72530994557617!3d-34.44642967970336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca21a900549ed%3A0xb7e86e78d001395a!2sDECS%20Tortugas!5e0!3m2!1ses-419!2sar!4v1665683759289!5m2!1ses-419!2sar" 
                 width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
                 
-    <footer>
-         <br>
-       <div>
-        <a class="imgSize" href="https://facebook.com" target="_blank"><img src="../assets/images/facebooklogo.png" alt="Facebook"></a>
-        <a class="imgSize" href="https://www.instagram.com/maja.rent/?hl=es" target="_blank"><img src="../assets/images/instagram.png" alt="Instagram"></a>
-        <a class="box__fixed" href="https://wa.me/5491132695121?text=Quisiera%20una%20cita,%20Gracias" target="_blank"><img src="../assets/images/whatsapp.png" alt="Whatsapp" class="whatsappFooter"></a>
-       </div>
-
-        <p class="pieDePagina"> Direccion showroom: Tortuguitas - con cita previa </p>
-        <p class="pieDePagina"> Lunes a viernes de 10:00 a 20:00 hs </p>
-        <p class="pieDePagina"> ® 2022 -  Todos los derechos reservados </p>
-
-    </footer>
+            <footer class="footer">
+        
+                <div class="footerDiv">
+                 <a href="https://facebook.com" target="_blank" alt="Facebook">
+                     <i class="fa-brands fa-facebook facebook animate__animated animate__pulse animate__infinite"></i>
+                 </a>
+                 <a href="https://www.instagram.com/maja.rent/?hl=es" target="_blank" alt="Instagram">
+                     <i class="fa-brands fa-instagram instagram animate__animated animate__pulse animate__infinite"></i>
+                 </a>
+                 <a href="https://wa.me/5491132695121?text=Quisiera%20una%20cita,%20Gracias" target="_blank" alt="Whatsapp" >
+                     <i class="fa-brands fa-whatsapp whatsapp animate__animated animate__pulse animate__infinite"></i>
+                 </a>
+                 <div>
+                     <nav class="navegadorFooter">
+                         <a href="../index.html">Inicio</a>
+                         <a href="./sobremi.html">Sobre Maja</a>
+                         <a href="./perchero.html">Perchero</a>
+                         <a href="./amedida.html">A Medida</a>
+                         
+                     </nav>
+                 </div>
+         
+                 <div>
+                     <p class="pieDePagina"> Copyright © 2022 - Desarrollado por Carolina Huergo</p>
+                     
+                 </div>
+                           
+                 </div>
+         
+             </footer>
+             <script src="../js/" ></script>
     
 </body>
 

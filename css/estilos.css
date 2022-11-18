@@ -8,6 +8,8 @@
     font-size: 62.5%;
     text-decoration: none;
     }
+
+
 .logo{
         width:300px;
         height:200px;
@@ -21,98 +23,148 @@
     font-style: bold;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    background-color: rgb(114, 95, 117);
-    font-size: 50px;
-  }
-  
-  li {
-    float: left;
-  
+.navegador {
+    margin-top: 5%;
+    background-color: rgb(216, 196, 192);
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     
   }
   
-  li a {
-    
-    color: rgb(171, 152, 176);
-    text-align: center;
-    padding: 20px 25px;
+.navegadorHijo {
     text-decoration: none;
-    text-align: end;
-  }
-  
-  li a:hover {
-    background-color: rgb(106, 86, 107);
-  }
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 5%;
+    list-style-type: none;
+    justify-content:space-around;
+     
+}
+.navegadorBS{
+    background-color: rgb(216, 196, 192);
+    font-size: 3rem;
 
+    color: rgb(250, 240, 240);
+    list-style-type: none;
+    justify-content: space-around;
+    margin-right: 10%;
+    
+}
+.fondoNav {
+    background-color: rgb(216, 196, 192);
+
+}
+nav  ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
 .cuerpoPpal {
-    background-color: rgba(237, 237, 233, 0.6);
-    margin: 20px;
+    
+    margin: 2rem;
+    background-color: white;
   
 } 
 
 .subtitulos {
     color: rgb(68, 63, 88);
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .centrado {
     text-align: center;
     margin-bottom: 10px;
+    margin-top: 20px;
 }
+    
+.wrap{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(to right,rgba(0, 0, 0, 0.5),rgb(0, 0, 0,0.5)), url("../assets/images/vestidoRosa-fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+.wrapTexto{
+    color:white;
+    width: 40%;
+    font-size:2rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.iconos {
+    color: rgb(225, 214, 214);
+    font-size: 3rem;
+    
+}
+
+.borderPadre {
+width: 100%;
+height: 70vh;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+ .ancho {
+    width: 100%;
+ }
 
 .border {
     text-decoration: none;
     list-style: none;
-    background-image: url(https://static.vecteezy.com/system/resources/previews/004/122/863/non_2x/white-gray-background-with-soft-watercolor-texture-vector.jpg);
-    border-color: rgb(86, 82, 100);
+    background-color: rgb(237, 228, 225)
+    border-color: rga (97, 95, 111); 
     background-clip: padding-box;
     border-style: ridge;
-    border-width:medium;
-    font-size: 30px;
-    margin: 20px;
-    padding: 30px;
-    width: 300px;
-    height: 300px;
-    border-radius: 20px;
+    border-width:thin;
+    font-size: 2.5rem;
+    font-style: italic; 
+    color: rgb(65, 58, 87);
+    margin: 2rem;
+    padding: 3rem;
+    width: 35rem;
+    height: 35rem;
+    border-radius: 1rem;
+    box-shadow: -1px -1px 14px 0px rgba(56,53,53,0.43);
+-webkit-box-shadow: -1px -1px 14px 0px rgba(56,53,53,0.43);
+-moz-box-shadow: -1px -1px 14px 0px rgba(56,53,53,0.43);
     overflow:auto;
-    
-    
-    
+    margin-top: 5rem;    
 }
-/* la idea es poner los cuaadrados uno al lado del otro */
+
 
 div button{
     text-align: center;
-    font-size: 20px;
+    font-size: 2rem;
     color:rgb(63, 52, 64);
-    background-color: rgba(207, 207, 202, 0.6);
+    background-color: rgba(222, 222, 217, 0.6);
     font-family: 'Quicksand', sans-serif;   
     border: 1px solid rgb(63, 52, 64);
-    color: white;
     padding: 15px 32px;
     text-decoration: none;
-    margin-left: 40px;
-    margin-top: 50px;
+    margin-left: 6rem;
+    margin-top: 9rem;
     
-
+    
 }
 
-.box__fixed {
-    position: fixed;
-    bottom: 40px;
-    right: 10px;
-    size:20px;
-   /* no puedo achicar la imagen de whatsapp */
+.margin {
+    margin-top: 6rem;
 }
 
 .section {
-font-size: 20px;
-background-color: rgba(207, 207, 202, 0.6); 
+font-size: 20px; 
 background-size: contain;
 margin-bottom: 10px;
 
@@ -123,24 +175,258 @@ margin-bottom: 10px;
     font-family: 'Work Sans', sans-serif;
     text-decoration: dotted;
 }
-
-.formulario {
-    font-size:80px;
-    font-family: 'Work Sans', sans-serif;
-    background-color: rgba(207, 207, 202, 0.6); 
-    margin-bottom: 10px;
+.negrita {
+    font-style: italic;
 }
 
-.imgSize {
-    margin-top: 10px;
-    width: 5px ;
-    height: 5px;
+.formularioPadre {
+    display: flex;
+}
+.formulario {
+    font-size: 3rem;;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: left;
+    width: 40%;
     
-    /* no se me achican las iconos aunque le pongo el tamaño. no se que estoy haciendo mal */
+    margin: 2rem;
+}
+.agrandar {
+font-size: 2rem;
+
+}
+.imagenFormulario {
+    width: 50rem;
+    height: 50rem;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    object-fit: cover;
+}
+.imgSize {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 5rem;
+    text-align: center;
+    object-fit: cover;
+}
+.mapa {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    margin-left: 50rem;
 }
 
 .pieDePagina {
-    margin-top: 20px;
-    font-size: 15px;
+    font-size: 1rem;
+    margin-left: 4rem; 
+    width: 100%;
     
 }
+.facebook {
+    color: #3b5998;
+    font-size: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+    text-align: center;
+    margin-left: 6rem;
+}
+
+.whatsapp {
+    color: rgb(8, 85, 8);
+    font-size: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.instagram {
+    color:#e1306c;
+    font-size: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(224, 208, 204);
+    width: 100%;
+    height: 16rem;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column; 
+    flex-wrap:wrap;
+    align-items: center; 
+    justify-content: center;   
+    
+}
+.footerDiv{
+    transition: 0.4s;
+}
+
+.navegadorFooter {
+    font-size: 2.5rem;
+    align-items: center;
+    list-style-type:none;
+    display: inline block;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 1rem;
+   
+    
+}
+footer div nav a {
+    
+    text-decoration: none;
+    color:black;
+}
+
+.izquierda{
+
+    background-color: rgb(246, 238, 236);
+    width: 50%;
+    height: 50rem;
+    
+}
+
+.derecha{
+    background-image: url("../assets/images/rsz_fotopaulina.jpg");
+    background-position: center;   
+    background-size:contain;
+    width: 50%;
+    height: 50rem;
+    object-fit: cover;
+   
+}
+
+.pantalla_dividida{
+    display: flex;
+   
+}
+
+.creativo{
+    color: rgb(97, 78, 74);
+    font-size: 2.5rem;
+}
+
+.textoTitulo{
+    font-size:2rem;
+    width: 40%;
+    margin:auto;
+    margin-top:8%;
+    margin-bottom: 3%;
+    margin-left:10%;
+    max-width: 50%;
+}
+
+.texto{
+    font-size: 1.3rem;
+    line-height: 190%;
+    width: 70%;
+    margin:auto;
+    margin-left:10%;
+    max-width: 100%;
+    min-width: 50%;
+}
+
+.preguntasFrecuentes {
+    font-size: 2.5rem; 
+    background-size: contain;
+    margin:2rem;
+    
+}
+
+.preguntas {
+    font-style:oblique;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    font-weight:bolder;
+}
+
+.galeria {
+    background-color: rgb(243, 238, 233);
+    width: 100%;
+    height: 3000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 4rem;
+    font-style: italic;
+    gap: 1%;
+    
+    
+
+
+}
+
+.imgGaleria {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgTerminos {
+    width: 50rem;
+    height:40rem;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5rem auto 5rem auto;
+}
+
+.borderMedida {
+    width: 70%;
+    height: 35rem;
+    background-color: rgb(237, 228, 225)
+    border-color: rga (97, 95, 111); 
+    background-clip: padding-box;
+    border-style: ridge;
+    border-width:thin;
+    font-size: 3rem;
+    font-style: italic; 
+    color: rgb(65, 58, 87);
+    margin: 5rem auto  5rem auto;
+    padding: 5rem;
+    border-radius: 1rem;
+    box-shadow: -1px -1px 14px 0px rgba(56,53,53,0.43);
+-webkit-box-shadow: -1px -1px 14px 0px rgba(56,53,53,0.43);
+-moz-box-shadow: -1px -1px 14px 0px rgba(56,53,53,0.43);
+    overflow:auto;
+    
+}
+
+
+@media screen and (max-width:720px) {
+    .pantalla_dividida{
+        flex-direction: column;
+    }
+    .derecha{
+        width: 100%;
+        height: 50%;
+    }
+    .izquierda{
+        width: 100%;
+        height: 50%;
+       
+    }
+   
+    h1{
+        font-size: 2rem;
+       
+    }
+    p{
+        width: 80%;
+        font-size: 0.8rem;
+    }
+
