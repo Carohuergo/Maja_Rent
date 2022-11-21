@@ -9,6 +9,12 @@
     text-decoration: none;
     }
 
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+
+    }
 
 .logo{
         width:300px;
@@ -23,43 +29,41 @@
     font-style: bold;
 }
 
-.navegador {
-    margin-top: 5%;
-    background-color: rgb(216, 196, 192);
-    width: 100%;
-    height: 5rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    
-  }
+
   
-.navegadorHijo {
-    text-decoration: none;
-    font-size: 3rem;
-    text-align: center;
-    margin-left: 5%;
-    list-style-type: none;
-    justify-content:space-around;
+.navegadorBS a{
+    text-decoration: none!important;
+    font-size: 2rem;
+    color: rgb(250, 240, 240);
      
 }
-.navegadorBS{
-    background-color: rgb(216, 196, 192);
-    font-size: 3rem;
-
+.navegadorBS {
+    width: 100%;
+    background-color: rgb(216, 196, 192)!important;
+    font-size: 2rem!important;
     color: rgb(250, 240, 240);
-    list-style-type: none;
-    justify-content: space-around;
-    margin-right: 10%;
+    list-style-type: none!important;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10%!important;
+    padding: 5px 5px 5px 10px;
+    justify-content: center;
+    
     
 }
-.fondoNav {
-    background-color: rgb(216, 196, 192);
-
-}
-nav  ul li a {
+.navegadorHijo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
     text-decoration: none;
-    color: aliceblue;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.navegadorBS a:hover {
+    color: black;
 }
 .cuerpoPpal {
     
@@ -109,7 +113,6 @@ nav  ul li a {
 
 .borderPadre {
 width: 100%;
-height: 70vh;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
@@ -123,7 +126,7 @@ justify-content: center;
 .border {
     text-decoration: none;
     list-style: none;
-    background-color: rgb(237, 228, 225)
+    background-color: rgb(237, 228, 225);
     border-color: rga (97, 95, 111); 
     background-clip: padding-box;
     border-style: ridge;
@@ -143,6 +146,21 @@ justify-content: center;
     margin-top: 5rem;    
 }
 
+.tarjetas {
+    font-size: 3rem;
+    background-color: rgb(237, 228, 225);
+    font-style: italic; 
+    color: rgb(65, 58, 87);
+    border-radius: 1rem;
+    box-shadow: -1px -1px 14px 0px rgba(56,53,53,0.43);
+-webkit-box-shadow: -1px -1px 14px 0px rgba(56,53,53,0.43);
+-moz-box-shadow: -1px -1px 14px 0px rgba(56,53,53,0.43);
+    text-decoration: none;
+    list-style: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
 
 div button{
     text-align: center;
@@ -181,6 +199,8 @@ margin-bottom: 10px;
 
 .formularioPadre {
     display: flex;
+    flex-direction: column;
+
 }
 .formulario {
     font-size: 3rem;;
@@ -190,10 +210,15 @@ margin-bottom: 10px;
     text-align: left;
     flex-direction: column;
     justify-content: left;
-    width: 40%;
-    
     margin: 2rem;
 }
+.formulario input {
+    font-size: 2rem;
+    border: 1px solid black;
+
+}
+
+
 .agrandar {
 font-size: 2rem;
 
@@ -213,50 +238,36 @@ font-size: 2rem;
     text-align: center;
     object-fit: cover;
 }
-.mapa {
-    margin-top: 3rem;
-    margin-bottom: 6rem;
-    margin-left: 50rem;
-}
+
 
 .pieDePagina {
     font-size: 1rem;
-    margin-left: 4rem; 
     width: 100%;
     
 }
 .facebook {
     color: #3b5998;
     font-size: 5rem;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    margin-right: 3rem;
     text-align: center;
-    margin-left: 6rem;
 }
 
 .whatsapp {
     color: rgb(8, 85, 8);
     font-size: 5rem;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
     text-align: center;
 }
 
 .instagram {
     color:#e1306c;
     font-size: 5rem;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    margin-right: 3rem;
     text-align: center;
 }
 
 .footer {
     background-color: rgb(224, 208, 204);
     width: 100%;
-    height: 16rem;
-    margin-bottom: 0;
+    height: auto;
+    padding: 20px;
     display: flex;
     flex-direction: column; 
     flex-wrap:wrap;
@@ -266,19 +277,23 @@ font-size: 2rem;
 }
 .footerDiv{
     transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .navegadorFooter {
     font-size: 2.5rem;
     align-items: center;
     list-style-type:none;
-    display: inline block;
+    display: flex;
     text-transform: uppercase;
-    position: relative;
-    margin-left: 1rem;
-   
-    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
 }
+
 footer div nav a {
     
     text-decoration: none;
@@ -350,8 +365,6 @@ footer div nav a {
 .galeria {
     background-color: rgb(243, 238, 233);
     width: 100%;
-    height: 3000px;
-    margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -388,7 +401,7 @@ footer div nav a {
 .borderMedida {
     width: 70%;
     height: 35rem;
-    background-color: rgb(237, 228, 225)
+    background-color: rgb(237, 228, 225);
     border-color: rga (97, 95, 111); 
     background-clip: padding-box;
     border-style: ridge;
@@ -405,9 +418,14 @@ footer div nav a {
     overflow:auto;
     
 }
+.mapaSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
 
-@media screen and (max-width:720px) {
+@media (max-width:500px) {
     .pantalla_dividida{
         flex-direction: column;
     }
@@ -429,4 +447,45 @@ footer div nav a {
         width: 80%;
         font-size: 0.8rem;
     }
+    .mapaSection iframe {
+        width: 50%;
+        height: auto;
+    }
 
+    .navegadorHijo a {
+            font-size: 1.5rem;
+
+        }
+    footer div i {
+        font-size: 4rem;
+    }
+
+    .imgTerminos {
+        height: 300px!important;
+        width: 75px!important;
+    }
+
+}
+@media screen and (max-width:1200px) {
+    .pantalla_dividida{
+        flex-direction: column;
+    }
+    .derecha{
+        width: 100%;
+        height: 50%;
+    }
+    .izquierda{
+        width: 100%;
+        height: 50%;
+       
+    }
+   
+    h1{
+        font-size: 2rem;
+       
+    }
+    p{
+        width: 80%;
+        font-size: 0.8rem;
+    }
+}
