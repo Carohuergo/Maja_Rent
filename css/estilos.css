@@ -97,12 +97,10 @@
 .wrapTexto{
     color:white;
     width: 40%;
-    font-size:2rem;
+    font-size:2.5rem;
     font-style: italic;
-    margin-bottom: 2rem;
     background-color: #ffffff10;
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+   
 }
 
 .iconos {
@@ -147,7 +145,7 @@ justify-content: center;
 }
 
 .tarjetas {
-    font-size: 3rem;
+    font-size: 3.5rem;
     background-color: rgb(237, 228, 225);
     font-style: italic; 
     color: rgb(65, 58, 87);
@@ -160,6 +158,14 @@ justify-content: center;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 2rem;
+ 
+    
+}
+.card-container {
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
 }
 
 div button{
@@ -173,6 +179,7 @@ div button{
     text-decoration: none;
     margin-left: 6rem;
     margin-top: 9rem;
+
     
     
 }
@@ -294,6 +301,16 @@ font-size: 2rem;
     padding: 5px;
 }
 
+footer  div nav a:hover {
+    color: rgb(107, 64, 64);
+    font-size: 1.5rem;
+    
+}
+
+footer div a i:hover {
+    font-size: 5.5rem;
+}
+
 footer div nav a {
     
     text-decoration: none;
@@ -373,8 +390,6 @@ footer div nav a {
     font-size: 4rem;
     font-style: italic;
     gap: 1%;
-    
-    
 
 
 }
@@ -386,6 +401,10 @@ footer div nav a {
     margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
+    margin-bottom: 3rem;
+}
+.margenGaleria {
+    margin-bottom: 2rem;
 }
 
 .imgTerminos {
@@ -399,11 +418,9 @@ footer div nav a {
 }
 
 .borderMedida {
-    width: 70%;
-    height: 35rem;
-    background-color: rgb(237, 228, 225);
+    width: 80%;
+    background-color: rgb(255, 249, 247);
     border-color: rga (97, 95, 111); 
-    background-clip: padding-box;
     border-style: ridge;
     border-width:thin;
     font-size: 3rem;
@@ -465,7 +482,23 @@ footer div nav a {
         width: 75px!important;
     }
 
+    .tarjetas {
+        width: 300px;
+        
+    }
+
+    .wrapTexto {
+        font-size: 4rem;
+    }
+
+    .wrap {
+        font-size: 5rem;
+    }
+
 }
+
+
+
 @media screen and (max-width:1200px) {
     .pantalla_dividida{
         flex-direction: column;
