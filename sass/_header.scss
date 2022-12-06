@@ -1,0 +1,47 @@
+.logo {
+    width:300px;
+    height:200px;
+    object-fit: cover;
+}
+
+.cabezera {
+color: rgb(65, 58, 87);
+@include flex-direction-justificar(column,center);
+       .tituloPpal { 
+ font-size: 3.6rem;
+ font-style: bold;
+        }
+        .tituloSecundario {
+            font-size: 2.5rem;
+            font-style: bold;
+        }
+}
+
+.navegadorBS {
+    width: 100%;
+    background-color: rgb(216, 196, 192)!important;
+    font-size: 2rem!important;
+    color: rgb(250, 240, 240);
+    list-style-type: none!important;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10%!important;
+    padding: 5px 5px 5px 10px;
+    justify-content: center;
+    a {
+        text-decoration: none!important;
+        font-size: 2rem;
+        color: rgb(250, 240, 240);
+        &:hover {
+            color: map-get($colores-hover, navHeader);
+        }
+    }     
+    .navegadorHijo {
+        @include flex-direction-justificar (row, space-around);
+        align-items: center;
+        flex-wrap: wrap;
+        text-decoration: none;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
