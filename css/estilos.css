@@ -104,7 +104,8 @@
 .carouselTamaño {
   width: 90%;
   height: 50%;
-  object-fit: cover; }
+  object-fit: cover;
+  margin: auto; }
 
 .InformacionFoto {
   color: #121111;
@@ -201,8 +202,8 @@
     .formularioPadre .formulario input {
       font-size: 2rem;
       border: 1px solid black; }
-  .formularioPadre button:hover {
-    background-color: #f6eeec; }
+    .formularioPadre .formulario .botonEnviar:hover {
+      background-color: #f6eeec !important; }
 
 .imagenFormulario {
   width: 50rem;

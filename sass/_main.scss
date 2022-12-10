@@ -11,6 +11,7 @@
    width: 90%;
    height: 50%;
    object-fit: cover;
+   margin: auto;
  
 }
 
@@ -129,12 +130,13 @@
             font-size: 2rem;
             border: 1px solid black;
         }
-    }
-    button {
-        &:hover {
-            background-color: map-get($colores-hover, botonEnviar);
+        .botonEnviar {
+            &:hover {
+                background-color: map-get($colores-hover, botonEnviar)!important;
+            }
         }
     }
+    
 }
 
 

@@ -80,9 +80,9 @@
 
           <div class="container row">
               <div class="col-12 col-md-6">
-                  <form class="form formularioPadre">
+                  <form class="form formularioPadre" action="./error.html">
                       <div class="formulario">
-                          <input class="form-control" type="email" placeholder="Nombre y apellido*" required />
+                          <input class="form-control" type="text" placeholder="Nombre y apellido*" required />
                           <br />
                           <input class="form-control" type="email" placeholder="ejemplo@mail.com*" required />
                           <br />
@@ -90,7 +90,7 @@
                           <br />
               
                           <!-- <p>¿En que servicio estas interesada?</p> -->
-                          <select class="custom-select agrandar">
+                          <select class="custom-select agrandar" required>
                           <option selected>¿En que servicio estas interesada?</option>
                           <option value="1">Alquiler de Perchero</option>
                           <option value="2">A medida</option>
@@ -132,7 +132,8 @@
                           <br />
                           <label for="exampleFormControlTextarea1" class="form-label agrandar">Comentarios</label>
                           <textarea class="form-control agrandar" placeholder="Ingrese su mensaje"></textarea>
-                          <button class="form-control agrandar" type="submit">Enviar Ahora</button>
+                          <input class="form-control agrandar botonEnviar" type="submit" value="Enviar Ahora">
+                          
                         </div>
                   </form>
               </div>        
