@@ -54,7 +54,7 @@
         @include flex-direction-justificar (column, center);
         align-items: center;
         .tituloPpal{
-            font-size: 3.6rem;
+            font-size: 2.7rem!important;
             font-style: bold;
         }
         
@@ -130,7 +130,7 @@
         @include flex-direction-justificar (column, center);
         align-items: center;
         .tituloPpal{
-            font-size: 3.6rem;
+            font-size: 2.8rem!important;
             font-style: bold;
         }
         
@@ -195,10 +195,10 @@
     }
     .cabezera {
         color: rgb(65, 58, 87);
-        @include flex-direction-justificar (column, center);
+        @include flex-direction-justificar (column, center!important);
         align-items: center;
         .tituloPpal{
-            font-size: 3.6rem;
+            font-size: 2.5rem!important;
             font-style: bold;
         }
         

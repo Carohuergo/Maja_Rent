@@ -23,7 +23,9 @@
       <div class="conteiner">
         <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-12 cabezera">
-          <img class="logo" src="../assets/images/logo-removebg-preview.png" alt="logo" />
+          <a href="../index.html">
+            <img class="logo" src="../assets/images/logo-removebg-preview.png" alt="logo" loading="lazy"/>
+          </a>
         </div>
         <div class="col-lg-8 col-md-8 col-sm-12 cabezera">
           <h1 class="tituloPpal">Maja Rent by Paulina Terra</h1>
@@ -34,34 +36,48 @@
       </div>
       </div>
 
-      <nav class="navbar navbar-expand-sm navbar-light bg-light navegadorBS">
-        
-        <div class="navbar-nav navegadorHijo">
-          <div class="p-3">
-            <a href="../index.html">Inicio</a>
-          </div>
-          <div class="p-3">
-            <a href="./sobremi.html">Sobre Maja</a>
-          </div>
-          <div class="p-3">
-            <a href="./perchero.html">Perchero</a>
-          </div>
-          <div class="p-3">
-            <a href="./amedida.html">A medida</a>
-          </div>
-          <div class="p-3">
-            <a href="#">Contacto</a>
-          </div>   
+
+      <nav class="navbar navbar-dark navbar-expand-md bg-dark navegadorHamburguesa">
+        <div class="container-fluid justify-content-space-evenly">
+          <button 
+          class="navbar-toggler"
+          type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav nav">
+            <li class="nav-item ">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./sobremi.html">Sobre Maja</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./perchero.html">Perchero</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./amedida.html">A medida</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+            </li>
+          </ul>
         </div>
-    </nav>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <section>
-          <br />
+      <section>
           <h2 class="subtitulos negrita centrado">
             Complete el formulario para sacar una cita con Maja
           </h2>
+
           <div class="container row">
               <div class="col-12 col-md-6">
                   <form class="form formularioPadre">
@@ -199,6 +215,6 @@
         </div>
       </div>
     </footer>
-    <script src="../js/"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

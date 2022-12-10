@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Work+Sans:ital,wght@1,200&display=swap");
 * {
@@ -25,32 +26,26 @@
     font-size: 2.5rem;
     font-style: bold; }
 
-.navegadorBS {
+.navegadorHamburguesa {
   width: 100%;
   background-color: #d8c4c0 !important;
   font-size: 2rem !important;
   color: #faf0f0;
   list-style-type: none !important;
-  display: flex;
-  flex-direction: row;
-  margin-right: 10% !important;
-  padding: 5px 5px 5px 10px;
-  justify-content: center; }
-  .navegadorBS a {
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 2rem; }
+  .navegadorHamburguesa .navbar-toggler {
+    font-size: 3.5rem; }
+    .navegadorHamburguesa .navbar-toggler:hover {
+      outline: none;
+      box-shadow: none; }
+  .navegadorHamburguesa .nav-link {
     text-decoration: none !important;
     font-size: 2rem;
-    color: #faf0f0; }
-    .navegadorBS a:hover {
-      color: black; }
-  .navegadorBS .navegadorHijo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    text-decoration: none;
-    font-size: 2rem;
-    text-align: center; }
+    color: #faf0f0;
+    margin-left: 2rem; }
+    .navegadorHamburguesa .nav-link:hover {
+      color: black !important; }
 
 .footer {
   background-color: #e0d0cc;
@@ -106,25 +101,20 @@
   margin: 2rem;
   background-color: white; }
 
-.wrap {
-  width: 80%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/vestidoRosa-fondo.jpeg");
-  background-size: cover;
-  background-position: center;
+.carouselTamaño {
+  width: 90%;
+  height: 50%;
   object-fit: cover; }
-  .wrap .wrapTexto {
-    color: white;
-    width: 40%;
-    font-size: 2.5rem;
-    font-style: italic;
-    background-color: #ffffff10; }
-    .wrap .wrapTexto .iconos {
-      color: #e1d6d6;
-      font-size: 3rem; }
+
+.InformacionFoto {
+  color: #121111;
+  width: 95%;
+  font-size: 2rem;
+  font-style: italic;
+  background-color: #e8e1e16f; }
+  .InformacionFoto .iconos {
+    color: #e1d6d6;
+    font-size: 3rem; }
 
 .card-container {
   display: flex;
@@ -346,7 +336,7 @@ estos 4 los utilice en varias pagina distinas
     justify-content: center;
     align-items: center; }
     .cabezera .tituloPpal {
-      font-size: 3.6rem;
+      font-size: 2.7rem !important;
       font-style: bold; }
     .cabezera .tituloSecundario {
       font-size: 2.5rem;
@@ -391,7 +381,7 @@ estos 4 los utilice en varias pagina distinas
     justify-content: center;
     align-items: center; }
     .cabezera .tituloPpal {
-      font-size: 3.6rem;
+      font-size: 2.8rem !important;
       font-style: bold; }
     .cabezera .tituloSecundario {
       font-size: 2.5rem;
@@ -436,10 +426,10 @@ estos 4 los utilice en varias pagina distinas
   color: #413a57;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center !important;
   align-items: center; }
   .cabezera .tituloPpal {
-    font-size: 3.6rem;
+    font-size: 2.5rem !important;
     font-style: bold; }
   .cabezera .tituloSecundario {
     font-size: 2.5rem;

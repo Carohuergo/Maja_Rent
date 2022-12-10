@@ -16,32 +16,30 @@ color: rgb(65, 58, 87);
             font-style: bold;
         }
 }
-
-.navegadorBS {
+.navegadorHamburguesa {
     width: 100%;
     background-color: rgb(216, 196, 192)!important;
     font-size: 2rem!important;
     color: rgb(250, 240, 240);
     list-style-type: none!important;
-    display: flex;
-    flex-direction: row;
-    margin-right: 10%!important;
-    padding: 5px 5px 5px 10px;
-    justify-content: center;
-    a {
-        text-decoration: none!important;
-        font-size: 2rem;
-        color: rgb(250, 240, 240);
+    font-family: $tipografiaGeneral;
+    margin-bottom: 2rem;
+    .navbar-toggler {
+        font-size: 3.5rem;
         &:hover {
-            color: map-get($colores-hover, navHeader);
+            outline: none;
+            box-shadow: none;
         }
-    }     
-    .navegadorHijo {
-        @include flex-direction-justificar (row, space-around);
-        align-items: center;
-        flex-wrap: wrap;
-        text-decoration: none;
-        font-size: 2rem;
-        text-align: center;
+    
     }
-}
+        .nav-link {
+            text-decoration: none!important;
+            font-size: 2rem;
+            color: rgb(250, 240, 240);
+            margin-left: 2rem;
+            &:hover {
+                color: map-get($colores-hover, navHeader)!important; 
+
+            }
+        }  
+   }
