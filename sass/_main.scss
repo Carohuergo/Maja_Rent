@@ -15,7 +15,7 @@
  
 }
 
-    .InformacionFoto{
+.InformacionFoto{
         color:rgb(18, 17, 17);
         width: 95%;
         font-size:2rem;
@@ -23,11 +23,9 @@
         background-color: #e8e1e16f;
         .iconos {
             color: rgb(225, 214, 214);
-            font-size: 3rem;
-            
-        }
-       
-    }
+            font-size: 3rem; 
+        }      
+}
 
 .card-container {
     display: flex;
@@ -64,7 +62,6 @@
 
         background-color: $color-card-info;
         width: 50%;
-        height: 60rem;
         .textoTitulo{
             font-size:2rem;
             width: 40%;
@@ -79,9 +76,9 @@
             }
         }
         .texto{
-            font-size: 1.3rem;
+            font-size: 1.6rem;
             line-height: 190%;
-            width: 70%;
+            width: 80%;
             margin:auto;
             margin-left:10%;
             max-width: 100%;
@@ -93,7 +90,6 @@
         background-position: center;   
         background-size:contain;
         width: 50%;
-        height: 60rem;
         object-fit: cover;
        
     }
@@ -247,6 +243,10 @@ font-size: 2rem;
 }
 .negrita2 {
     font-weight: bolder;
+}
+
+.iconoError {
+    font-size: 4rem;
 }
 
 /*

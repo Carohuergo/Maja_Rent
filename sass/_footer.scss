@@ -29,7 +29,7 @@
             text-align: center;
         }
         .navegadorFooter {
-            font-size: 2.5rem;
+            font-size: 3.8rem;
             align-items: center;
             list-style-type:none;
             @include flex-direction-justificar (row, space-around);               
@@ -41,7 +41,7 @@
                 color:black;
                 &:hover {
                     color: map-get($colores-hover, navFooter);
-                    font-size: 1.5rem;
+                    font-size: 1.7rem;
                 }
             }
         }

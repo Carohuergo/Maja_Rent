@@ -25,13 +25,18 @@
         height: auto;
     }
 
-    .navegadorHijo a {
-            font-size: 1.5rem;
 
-        }
     footer div i {
         font-size: 4rem;
     }
+
+    .navegadorFooter {
+        font-size: 2.8rem!important;
+            &:hover {
+                color: map-get($colores-hover, navFooter);
+                font-size: 2rem!important;
+            }
+        }
 
     .imgTerminos {
         height: 300px!important;
@@ -93,10 +98,6 @@
         height: auto;
     }
 
-    .navegadorHijo a {
-            font-size: 1.5rem;
-
-        }
     footer div i {
         font-size: 4rem;
     }
@@ -166,9 +167,6 @@
         height: auto;
     }
 
-    .navegadorHijo a {
-            font-size: 1.5rem;
-        }
     footer div i {
         font-size: 4rem;
     }
